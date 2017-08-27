@@ -24,11 +24,15 @@ http://localhost:8080/Backbase
 /transactions/{type}/total
 
 #The application is proteceted using spring security by Http Basic
+
 User: backbase
+
 Password: 123
 
 #Call example
+
 http://localhost:8080/Backbase/transactions/sandbox-payment
 
 #Deploy
+
 Just build the project with maven and deploy it to the server.
